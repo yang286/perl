@@ -1,0 +1,13 @@
+sub marine {
+	$n += 1;
+	print "Hello, sailor number $n!\<br>";
+}
+
+
+&marine;
+&marine;
+&marine;
+&marine;
+&marine;
+&marine;
+&marine;
