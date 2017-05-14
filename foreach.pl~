@@ -1,8 +1,0 @@
-@a = (0..9);
-@b = (0..9);
-@c = (0..9);
-foreach $a (@a) {
-	foreach $b (@b) {
-	print " $a $b\t";
-}
-}

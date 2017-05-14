@@ -22,5 +22,7 @@ if ($aa) {
 	print "true";
 }
 else {
-	print "false";
+	print "wode卡会计iw奥覅连接 我发的啊";
+
 }
+# do you have any backup? test again; again; again;aaaaaaaaa
