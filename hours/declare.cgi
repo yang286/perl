@@ -1,5 +1,5 @@
 #!perl
-pring "Context-type: text/html; charset=utf-8\n\n";
+print "Content-type: text/html; charset=utf-8\n\n";
 
 use strict;
 use warnings;
@@ -15,7 +15,7 @@ my %owner2 = (
 	"name" => "Michey Mouse",
 	"DOB" => "1928-11-18",
 );
-
+print "<br />aa";
 #my $owner2Ref = \%owner2;
 
 #my @owners = ( $owner1Ref, $owner2Ref );
@@ -37,7 +37,7 @@ my $owner1Ref = {
 	"DOB" => "1882-12-25",
 };
 
-my $owner2ref = {
+my $owner2Ref = {
 	"name" => "Michey Mouse",
 	"DOB" => "1928-11-18",
 };
@@ -45,13 +45,13 @@ my $owner2ref = {
 # 方括号表示匿名array
 my $ownersRef = [ $owner1Ref, $owner2Ref ];
 
-my %account = (
+%account = (
 	"number" => "123456",
 	"opened" => "2010-12-22",
 	"owners" => $ownersRef,
 );
 
-my %account = (
+%account = (
 	"number" => "21453423",
 	"opened" => "2017-5-20",
 	"owners" => [

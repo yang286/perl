@@ -45,7 +45,7 @@ print <<ND_OF_HEADING;
 				<th>Description</th>
 				<th>Value</th>
 			</tr>
-	ND_OF_HEADING
+ND_OF_HEADING
 
 	my $name;
 
